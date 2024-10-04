@@ -1,7 +1,7 @@
 title: digisea
 description: Revolutionizing Maritime and Logistics Software Discovery
-baseurl: ""
-url: "https://sasatass.github.io/digisea/"
+baseurl: "digisea"
+url: "https://sasatass.github.io"
 
 # Build settings
 markdown: kramdown
