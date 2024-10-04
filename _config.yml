@@ -1,0 +1,28 @@
+title: digisea
+description: Revolutionizing Maritime and Logistics Software Discovery
+baseurl: ""
+url: "https://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include the assets directory
+include:
+  - assets
+
+# Sass settings (if you're using Sass)
+sass:
+  sass_dir: _sass
+  style: compressed
