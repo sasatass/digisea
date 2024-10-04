@@ -73,7 +73,7 @@ title: Buying Intelligence for Maritime and Logistics
 
 <section id="solution">
     <div class="container">
-        <h2>Our Solution</h2>
+        <h2>The Solution</h2>
         <div class="solution-content reverse">
             <div class="solution-text">
                 <p>digisea is a dedicated web application that serves as the go-to platform for maritime and logistics software discovery, review, and comparison.</p>
