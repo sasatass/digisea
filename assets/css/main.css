@@ -84,21 +84,40 @@ nav {
     display: flex;
     list-style-type: none;
     align-items: center;
+    gap: 15px; /* Adds space between items */
 }
 
 .nav-menu li {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .nav-menu li a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
     font-weight: 500;
+    padding: 10px; /* Adds padding for better click area */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
+.nav-menu li a:hover {
+    color: var(--accent-color); /* Color change on hover for better UX */
+}
+
+/* CTA Button Styling */
 .nav-menu .cta-button {
+    background-color: var(--accent-color);
+    color: white;
     padding: 10px 20px;
     font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-menu .cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
 }
 
 /* Hero Section */
