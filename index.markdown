@@ -3,7 +3,7 @@ layout: default
 title: Buying Intelligence for Maritime and Logistics
 ---
 
- <section id="hero" style="background-image: url('https://raw.githubusercontent.com/sasatass/digisea/assets/images/hero-image.jpg');">
+ <section id="hero" style="background-image: url('{{ site.baseurl }}/assets/images/hero-image.jpg');">
     <div class="container">
         <h1>Discover, view demos, and compare... </h1>
         <p>...the best software solutions for maritime and logistics.</p>
