@@ -18,7 +18,7 @@ title: Buying Intelligence for Maritime and Logistics
             <div class="stat-card">
                 <img src="https://placehold.co/100x100?text=Icon" alt="Stat Icon" class="stat-icon" />
                 <h3>71%</h3>
-                <p>of maritime companies struggle to find suitable digital solutions for their needs.</p>
+                <p>of maritime companies struggle to find suitable digital solutions for their unique needs.</p>
                 <small>Source: DNV GL Maritime Impact 2019</small>
             </div>
             <div class="stat-card">
@@ -62,7 +62,7 @@ title: Buying Intelligence for Maritime and Logistics
         <h2>Our Vision</h2>
         <div class="vision-content">
             <div class="vision-text">
-                <p>digisea envisions a future where maritime and logistics professionals can easily discover, evaluate, and leverage the best software solutions to drive innovation and efficiency in their operations.</p>
+                <p>digisea envisions a future where maritime professionals can easily discover, evaluate, and leverage the best software solutions to drive innovation and efficiency in their operations.</p>
             </div>
             <div class="vision-image">
                 <img src="https://placehold.co/600x400?text=Vision+Image" alt="Our Vision" />
@@ -76,7 +76,7 @@ title: Buying Intelligence for Maritime and Logistics
         <h2>The Solution</h2>
         <div class="solution-content reverse">
             <div class="solution-text">
-                <p>digisea is a dedicated web application that serves as the go-to platform for maritime and logistics software discovery, review, and comparison.</p>
+                <p>digisea is a dedicated web application that serves as the go-to platform for maritime software discovery, review, and comparison.</p>
                 <ul class="feature-list">
                     <li>Centralize Information</li>
                     <li>Empower User Feedback</li>
@@ -94,7 +94,7 @@ title: Buying Intelligence for Maritime and Logistics
 
 <section id="waitlist-form">
     <div class="container">
-        <h2>Join the Revolution</h2>
+        <h2>Hop aboard now...</h2>
         <p>Be the first to know when digisea launches. Join our waitlist today!</p>
         <form id="signup-form">
             <input type="email" id="email" placeholder="Enter your email address" required>
