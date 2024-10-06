@@ -93,14 +93,14 @@ nav {
 
 .nav-menu li a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
     font-weight: 500;
     padding: 10px; /* Adds padding for better click area */
     transition: color 0.3s ease; /* Smooth hover effect */
 }
 
 .nav-menu li a:hover {
-    color: var(--accent-color); /* Color change on hover for better UX */
+    color: var(--background-color); /* Color change on hover for better UX */
 }
 
 /* CTA Button Styling */
