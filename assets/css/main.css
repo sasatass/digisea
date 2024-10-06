@@ -225,12 +225,6 @@ section {
     transition: transform 0.3s ease;
 }
 
-i {
-    font-size: 35px;
-    color: var(--primary-color);
-    margin-right: 10px;
-}
-
 .stat-card:hover, .insight-card:hover {
     transform: translateY(-5px);
 }
