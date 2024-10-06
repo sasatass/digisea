@@ -291,23 +291,33 @@ form button:hover {
 }
 
 /* Footer Styles */
-.site-footer {
+ .site-footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 60px 0 20px;
+    padding: 60px 20px 20px; /* Add padding to sides for better spacing */
+    text-align: center; /* Center align all content */
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center all footer sections */
     flex-wrap: wrap;
+    gap: 40px; /* Space between footer items */
     margin-bottom: 40px;
+}
+
+.footer-logo img {
+    max-width: 150px; /* Set max width */
+    height: auto;
+    margin-bottom: 20px;
+    fill: currentColor; /* Inherit color from parent */
 }
 
 .footer-section {
     flex: 1;
     margin-bottom: 20px;
     min-width: 200px;
+    text-align: left; /* Align text to the left for sections */
 }
 
 .footer-section h3 {
@@ -317,6 +327,7 @@ form button:hover {
 
 .footer-section ul {
     list-style-type: none;
+    padding: 0; /* Remove padding for ul */
 }
 
 .footer-section ul li {
@@ -326,17 +337,25 @@ form button:hover {
 .footer-section ul li a {
     color: var(--secondary-color);
     text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.footer-section ul li a:hover {
+    color: var(--accent-color); /* Color change on hover */
 }
 
 .social-links {
     display: flex;
-    gap: 10px;
+    gap: 15px; /* Space between social icons */
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid var(--accent-color);
+    font-size: 0.9em; /* Slightly smaller font for footer bottom */
 }
 
 /* Responsive Styles */
@@ -402,6 +421,18 @@ form button:hover {
 
     #hero p {
         font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center; /* Center text on small screens */
+        margin-bottom: 30px;
     }
 }
 
