@@ -103,9 +103,10 @@ nav {
 
 /* Hero Section */
 #hero {
+    background-image: url('../images/hero-image.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: no-repeat;
     color: white;
     text-align: center;
     padding: 200px 0 150px;
