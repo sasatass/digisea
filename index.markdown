@@ -42,7 +42,7 @@ title: The Home of Maritime SaaS
         <h2>Industry Insights</h2>
         <div class="insight-grid">
             <div class="insight-card">
-                <img src="https://cplacehold.co/100x100?text=Icon" alt="Insight Icon" class="insight-icon" />
+                <img src="{{ site.baseurl }}/assets/images/insight1.png" alt="Insight Icon" class="insight-icon" />
                 <h3>$278.8 billion</h3>
                 <p>Expected size of the global maritime technology market by 2028, growing at a CAGR of 8.7% from 2021 to 2028.</p>
                 <small>Source: Grand View Research, 2021</small>
