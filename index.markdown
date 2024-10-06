@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buying Intelligence for Maritime and Logistics
+title: The Home of Maritime SaaS
 ---
 
  <section id="hero" style="background-image: url('{{ site.baseurl }}/assets/images/hero-image.jpg');">
@@ -48,7 +48,7 @@ title: Buying Intelligence for Maritime and Logistics
                 <small>Source: Grand View Research, 2021</small>
             </div>
             <div class="insight-card">
-                <i class="fa-solid fa-magnifying-glass"></i>
+               <img src="https://cplacehold.co/100x100?text=Icon" alt="Insight Icon" class="insight-icon" />
                 <h3>69%</h3>
                 <p>of shipping companies believe that digital transformation is crucial for their future success.</p>
                 <small>Source: Nautilus International Survey, 2022</small>
