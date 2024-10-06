@@ -5,8 +5,8 @@ title: Buying Intelligence for Maritime and Logistics
 
 <section id="hero" style="background-image: url('https://placehold.co/1200x600?text=Hero+Image');">
     <div class="container">
-        <h1>Buying Intelligence for Maritime and Logistics</h1>
-        <p>Discover, review, and compare the best software solutions for maritime and logistics.</p>
+        <h1>Discover, view demos, and compare... </h1>
+        <p>...the best software solutions for maritime and logistics.</p>
         <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
     </div>
 </section>
