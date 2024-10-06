@@ -3,7 +3,7 @@ layout: default
 title: Buying Intelligence for Maritime and Logistics
 ---
 
-<section id="hero" style="background-image: url('{% raw %}{{"/assets/images/hero-image.jpg" | relative_url }}{% endraw %}');">
+<section id="hero" style="background-image: url('{% raw %}{{" '/assets/images/hero-image.jpg" | relative_url }}{% endraw %}');">
   <div class="container">
     <div class="container">
         <h1>Discover, view demos, and compare... </h1>
