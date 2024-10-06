@@ -100,12 +100,12 @@ nav {
 }
 
 .nav-menu li a:hover {
-    color: var(--background-color); /* Color change on hover for better UX */
+    color: var(--accent-color); /* Color change on hover for better UX */
 }
 
 /* CTA Button Styling */
 .nav-menu .cta-button {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
     font-size: 0.9em;
