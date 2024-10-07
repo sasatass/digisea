@@ -6,7 +6,7 @@ title: The Home of Maritime SaaS
  <section id="hero" style="background-image: url('{{ site.baseurl }}/assets/images/hero-image.jpg');">
     <div class="container">
         <h1>Discover, view demos, and compare... </h1>
-        <p>...the best software solutions for maritime and logistics.</p>
+        <p>...the best SaaS solutions for maritime.</p>
         <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
     </div>
 </section>
@@ -37,6 +37,20 @@ title: The Home of Maritime SaaS
     </div>
 </section>
 
+<section id="vision">
+    <div class="container">
+        <h2>Our Vision</h2>
+        <div class="vision-content">
+            <div class="vision-text">
+                <p>digisea envisions a future where maritime professionals can easily discover, evaluate, and leverage the best software solutions to drive innovation and efficiency in their operations.</p>
+            </div>
+            <div class="vision-image">
+                <img src="https://placehold.co/600x400?text=Vision+Image" alt="Our Vision" />
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="insights">
     <div class="container">
         <h2>Industry Insights</h2>
@@ -52,20 +66,6 @@ title: The Home of Maritime SaaS
                 <h3>69%</h3>
                 <p>of shipping companies believe that digital transformation is crucial for their future success.</p>
                 <small>Source: Nautilus International Survey, 2022</small>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="vision">
-    <div class="container">
-        <h2>Our Vision</h2>
-        <div class="vision-content">
-            <div class="vision-text">
-                <p>digisea envisions a future where maritime professionals can easily discover, evaluate, and leverage the best software solutions to drive innovation and efficiency in their operations.</p>
-            </div>
-            <div class="vision-image">
-                <img src="https://placehold.co/600x400?text=Vision+Image" alt="Our Vision" />
             </div>
         </div>
     </div>
