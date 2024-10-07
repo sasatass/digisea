@@ -76,7 +76,7 @@ title: The Home of Maritime SaaS
         <h2>The Solution</h2>
         <div class="solution-content reverse">
             <div class="solution-text">
-                <p>digisea is a dedicated web application that serves as the go-to platform for maritime software discovery, review, and comparison.</p>
+                <p>digisea is the home of maritime SaaS serves as the go-to platform for maritime software discovery, review, and comparison.</p>
                 <ul class="feature-list">
                     <li>Centralize Information</li>
                     <li>Empower User Feedback</li>
@@ -86,7 +86,7 @@ title: The Home of Maritime SaaS
                 </ul>
             </div>
             <div class="solution-image">
-                <img src="https://placehold.co/600x400?text=Solution+Image" alt="Our Solution" />
+                <img src="{{ site.baseurl }}/assets/images/solution1.png" alt="Our Solution" />
             </div>
         </div>
     </div>
