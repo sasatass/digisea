@@ -42,10 +42,10 @@ title: The Home of Maritime SaaS
         <h2>Our Vision</h2>
         <div class="vision-content">
             <div class="vision-text">
-                <p>digisea envisions a future where maritime professionals can easily discover, evaluate, and leverage the best software solutions to drive innovation and efficiency in their operations.</p>
+                <p>digisea aims to be the definitive home for maritime SaaS, bridging the gap between innovative software solutions and the    industry professionals who need them. We're creating a comprehensive, user-centric platform that allows maritime professionals to easily discover, explore, and compare the most advanced SaaS offerings in the industry.</p>
             </div>
             <div class="vision-image">
-                <img src="https://placehold.co/600x400?text=Vision+Image" alt="Our Vision" />
+                <img src="{{ site.baseurl }}/assets/images/vision1.png" alt="Our Vision" />
             </div>
         </div>
     </div>
