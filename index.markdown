@@ -3,7 +3,7 @@ layout: default
 title: The Home of Maritime SaaS
 ---
 
- <section id="hero" style="background-image: url('{{ site.baseurl }}/assets/images/hero-image.jpg');">
+ <section id="hero" style="background-image: url('/assets/images/hero-image.jpg');">
     <div class="container">
         <h1>Discover, view demos, and compare... </h1>
         <p>...the best SaaS solutions for maritime.</p>
