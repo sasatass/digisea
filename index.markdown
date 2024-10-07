@@ -16,19 +16,19 @@ title: The Home of Maritime SaaS
         <h2>The Challenge</h2>
         <div class="stat-grid">
             <div class="stat-card">
-                <img src="https://placehold.co/100x100?text=Icon" alt="Stat Icon" class="stat-icon" />
+                <img src="{{ site.baseurl }}/assets/images/stat1.png" alt="Stat Icon" class="stat-icon" />
                 <h3>71%</h3>
                 <p>of maritime companies struggle to find suitable digital solutions for their unique needs.</p>
                 <small>Source: DNV GL Maritime Impact 2019</small>
             </div>
             <div class="stat-card">
-                <img src="https://placehold.co/100x100?text=Icon" alt="Stat Icon" class="stat-icon" />
+               <img src="{{ site.baseurl }}/assets/images/stat2.png" alt="Stat Icon" class="stat-icon" />
                 <h3>80%</h3>
                 <p>of B2B buyers rely on peer recommendations when making software purchasing decisions.</p>
                 <small>Source: Gartner</small>
             </div>
             <div class="stat-card">
-                <img src="https://placehold.co/100x100?text=Icon" alt="Stat Icon" class="stat-icon" />
+               <img src="{{ site.baseurl }}/assets/images/stat3.png" alt="Stat Icon" class="stat-icon" />
                 <h3>42%</h3>
                 <p>growth in the maritime startup ecosystem in the last three years, but 60% of these startups struggle to gain market traction.</p>
                 <small>Source: Maritime Innovation Report 2023</small>
