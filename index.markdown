@@ -76,7 +76,7 @@ title: The Home of Maritime SaaS
         <h2>The Solution</h2>
         <div class="solution-content reverse">
             <div class="solution-text">
-                <p>digisea is the home of maritime SaaS serves as the go-to platform for maritime software discovery, review, and comparison.</p>
+                <p>digisea: The home of maritime SaaS — empowering the industry through streamlined discovery, review, and comparison of cutting-edge software solutions.</p>
                 <ul class="feature-list">
                     <li>Centralize Information</li>
                     <li>Empower User Feedback</li>
