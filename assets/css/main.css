@@ -172,6 +172,7 @@ nav {
     border-radius: 4px;
     text-decoration: none;
     font-weight: 700;
+    letter spacing: 2px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 1.1em;
 }
