@@ -56,13 +56,13 @@ title: The Home of Maritime SaaS
         <h2>Industry Insights</h2>
         <div class="insight-grid">
             <div class="insight-card">
-                <img src="{{ site.baseurl }}/assets/images/insight1.png" alt="Insight Icon" class="insight-icon" />
+                <img src="{{ site.baseurl }}/assets/images/insight1.png" alt="Tech Icon" class="insight-icon" />
                 <h3>$278.8 billion</h3>
                 <p>Expected size of the global maritime technology market by 2028, growing at a CAGR of 8.7% from 2021 to 2028.</p>
                 <small>Source: Grand View Research, 2021</small>
             </div>
             <div class="insight-card">
-             <i class="fa-regular fa-thumbs-up fa-2xl" style="color: #2b3c64;"></i>
+            <img src="{{ site.baseurl }}/assets/images/insight2.png" alt="Graph Icon" class="insight-icon" />
                 <h3>69%</h3>
                 <p>of shipping companies believe that digital transformation is crucial for their future success.</p>
                 <small>Source: Nautilus International Survey, 2022</small>
