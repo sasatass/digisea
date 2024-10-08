@@ -2,6 +2,7 @@
 layout: default
 title: The Home of Maritime SaaS
 description: digisea is streamlining discovery, review, and comparison of maritime SaaS solutions.
+image: /assets/images/vision1.png
 ---
 
  <section id="hero" style="background-image: url('/assets/images/hero-image.jpg');">
