@@ -55,14 +55,23 @@ p {
 }
 
 /* Header Styles */
+/* Initial navbar style */
 .site-header {
     background-color: var(--background-color);
-    box-shadow: 0 2px 4px rgba(44, 60, 100, 0.1);
+    opacity: 0.8;  /* Initially transparent */
+    transition: opacity 0.4s ease, background-color 0.4s ease;  /* Smooth transition */
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    padding: 15px 0;
 }
+
+/* Navbar when solid after scrolling */
+.site-header.solid {
+    opacity: 0.95;  /* Fully opaque */
+    background-color: var(--background-color);  /* Adjust background if needed */
+}
+
 
 nav {
     display: flex;
@@ -289,6 +298,19 @@ form button {
 
 form button:hover {
     background-color: var(--accent-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#message {
+    padding: 15px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: var(--primary-color);
 }
 
 /* Footer Styles */
