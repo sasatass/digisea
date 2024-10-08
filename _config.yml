@@ -27,3 +27,5 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+
+  google_analytics: G-TYPB5XGVV8
