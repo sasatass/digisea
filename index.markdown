@@ -9,7 +9,7 @@ keywords: "maritime, SaaS, software, digisea, shipping industry"
 <section id="hero" style="background-image: url('{{ '/assets/images/hero-image.jpg' | relative_url }}');">
     <div class="container">
         <h1>Discover, view demos, and compare...</h1>
-        <p>...the best SaaS solutions for maritime.</p>
+        <p>...SaaS solutions for maritime.</p>
         <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
     </div>
 </section>
