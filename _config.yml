@@ -1,7 +1,9 @@
 title: digisea
-description: Maritime SaaS in one place
+description: The Home of Maritime SaaS
+author: smckenna
 baseurl: "/digisea"
 url: "https://sasatass.github.io"
+
 
 # Build settings
 markdown: kramdown
