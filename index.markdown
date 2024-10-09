@@ -49,7 +49,7 @@ image: /assets/images/vision1.png
             <h2>Our Vision</h2>
             <div class="vision-content">
                 <div class="vision-text">
-                    <p>digisea aims to be the definitive home for maritime SaaS, bridging the gap between innovative software solutions and the industry professionals who need them. We're creating a comprehensive, user-centric platform that allows maritime professionals to easily discover, explore, and compare the most advanced SaaS offerings in the industry.</p>
+                    <p>digisea aims to be the definitive home for maritime SaaS, bridging the gap between innovative software solutions and the industry professionals who need them. We're creating a comprehensive, user-centric platform that allows maritime professionals to easily discover, explore, and compare SaaS offerings in the industry.</p>
                 </div>
                 <div class="vision-image">
                     <img src="{{ '/assets/images/vision1.png' | relative_url }}" alt="Illustration depicting digisea's vision" />
