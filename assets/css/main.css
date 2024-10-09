@@ -124,15 +124,22 @@ nav {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.hero-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .nav-menu .cta-button:hover {
     background-color: var(--secondary-color);
     transform: translateY(-3px);
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('../images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 200px 0 150px;
+    position: relative;
+    min-height: 80vh;
 }
 
 #hero::before {
@@ -145,6 +152,26 @@ nav {
     background: rgba(44, 60, 100, 0.6);
     z-index: 1;
 }
+
+/* Mobile (small) */
+@media (max-width: 600px) {
+    #hero {
+        background-image: url('/assets/images/hero-image-small.jpg');
+    }
+}
+
+/* Tablet (medium) */
+@media (max-width: 1200px) {
+    #hero {
+        background-image: url('/assets/images/hero-image.jpg');
+    }
+}
+
+/* Desktop (large) */
+#hero {
+    background-image: url('/assets/images/hero-image.jpg');
+}
+
 
 #hero .container {
     position: relative;
