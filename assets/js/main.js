@@ -104,3 +104,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the navbar state on page load
     handleScroll();
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var banner = document.getElementById('privacy-banner');
+    var acceptButton = document.getElementById('accept-cookies');
+
+    // Check if cookies were already accepted
+    if (!localStorage.getItem('cookiesAccepted')) {
+        banner.style.display = 'block';
+    }
+
+    // Accept cookies
+    acceptButton.addEventListener('click', function() {
+        localStorage.setItem('cookiesAccepted', 'true');
+        banner.style.display = 'none';
+    });
+});
+
