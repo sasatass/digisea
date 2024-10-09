@@ -353,6 +353,30 @@ html {
     color: var(--primary-color);
 }
 
+/* Privacy Banner Styles */
+.privacy-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(44, 60, 100, 0.9);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}
+
+.privacy-banner p {
+    display: inline-block;
+    margin: 0;
+}
+
+.privacy-banner a {
+    color: #cdd2db;
+    text-decoration: underline;
+}
+
 /* Footer Styles */
  .site-footer {
     background-color: var(--primary-color);
