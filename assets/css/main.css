@@ -54,31 +54,101 @@ p {
     margin-bottom: 20px;
 }
 
-/* Hero Image and Text */
-#hero {
-    position: relative;
-    overflow: hidden;
+/* Header Styles */
+/* Initial navbar style */
+.site-header {
+    background-color: var(--background-color);
+    opacity: 0.8;  /* Initially transparent */
+    transition: opacity 0.4s ease, background-color 0.4s ease;  /* Smooth transition */
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Navbar when solid after scrolling */
+.site-header.solid {
+    opacity: 0.95;  /* Fully opaque */
+    background-color: var(--background-color);  /* Adjust background if needed */
+}
+
+
+nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    height: 80vh;
-    background-color: var(--light-gray); /* Fallback color while image loads */
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 150px;
+    height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 15px; /* Adds space between items */
+}
+
+.nav-menu li {
+    margin-left: 15px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 10px; /* Adds padding for better click area */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-menu li a:hover {
+    color: var(--accent-color); /* Color change on hover for better UX */
+}
+
+/* CTA Button Styling */
+.nav-menu .cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav-menu .cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+#hero::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    right: 0;
+    bottom: 0;
+    background: rgba(44, 60, 100, 0.6);
+    z-index: 1;
 }
 
 #hero .container {
     position: relative;
     z-index: 2;
-    text-align: center;
 }
 
 #hero h1 {
@@ -96,7 +166,26 @@ p {
     color: var(--background-color);
 }
 
-/* Button Styling */
+/* Initial state for hero text */
+.hero-text {
+    opacity: 0;
+    transform: translateY(50px);  /* Move text down by 50px initially */
+    animation: fadeInUp 1.5s ease forwards;  /* Animation duration and easing */
+    animation-delay: 0.5s;  /* Delay before the animation starts */
+}
+
+/* Keyframes for the fade-in and slide-up effect */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);  /* Start off slightly lower */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);  /* End at normal position */
+    }
+}
+
 .cta-button {
     display: inline-block;
     background-color: var(--accent-color);
@@ -113,26 +202,6 @@ p {
 .cta-button:hover {
     background-color: var(--primary-color);
     transform: translateY(-3px);
-}
-
-/* Initial state for hero text */
-.hero-text {
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeInUp 1.5s ease forwards;
-    animation-delay: 0.5s;
-}
-
-/* Keyframes for the fade-in and slide-up effect */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* Content Sections */
@@ -164,7 +233,6 @@ section {
     flex-direction: row-reverse;
 }
 
-/* Stats and Insights Grid */
 .stat-grid, .insight-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -245,6 +313,10 @@ form button:hover {
     background-color: var(--accent-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #message {
     padding: 15px;
     background-color: var(--light-gray);
@@ -255,33 +327,33 @@ form button:hover {
 }
 
 /* Footer Styles */
-.site-footer {
+ .site-footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 60px 20px 20px;
-    text-align: center;
+    padding: 60px 20px 20px; /* Add padding to sides for better spacing */
+    text-align: center; /* Center align all content */
 }
 
 .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center all footer sections */
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 40px; /* Space between footer items */
     margin-bottom: 40px;
 }
 
 .footer-logo img {
-    max-width: 150px;
+    max-width: 150px; /* Set max width */
     height: auto;
     margin-bottom: 20px;
-    fill: currentColor;
+    fill: currentColor; /* Inherit color from parent */
 }
 
 .footer-section {
     flex: 1;
     margin-bottom: 20px;
     min-width: 200px;
-    text-align: left;
+    text-align: left; /* Align text to the left for sections */
 }
 
 .footer-section h3 {
@@ -291,7 +363,7 @@ form button:hover {
 
 .footer-section ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0; /* Remove padding for ul */
 }
 
 .footer-section ul li {
@@ -301,16 +373,16 @@ form button:hover {
 .footer-section ul li a {
     color: var(--secondary-color);
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /* Smooth hover transition */
 }
 
 .footer-section ul li a:hover {
-    color: var(--accent-color);
+    color: var(--accent-color); /* Color change on hover */
 }
 
 .social-links {
     display: flex;
-    gap: 15px;
+    gap: 15px; /* Space between social icons */
     justify-content: center;
     margin-top: 20px;
 }
@@ -319,7 +391,7 @@ form button:hover {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid var(--accent-color);
-    font-size: 0.9em;
+    font-size: 0.9em; /* Slightly smaller font for footer bottom */
 }
 
 /* Responsive Styles */
@@ -395,7 +467,7 @@ form button:hover {
     }
 
     .footer-section {
-        text-align: center;
+        text-align: center; /* Center text on small screens */
         margin-bottom: 30px;
     }
 }
