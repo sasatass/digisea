@@ -7,7 +7,7 @@ image: /assets/images/vision1.png
 ---
 
 <!-- Hero Section -->
-<section id="hero" style="background-image: url('{{ '/assets/images/hero-image.jpg' | relative_url }}');">
+<section id="hero"
     <div class="container">
        <h1 class="hero-text">Discover, view demos, and compare...</h1>
         <p class="hero-text">...SaaS solutions for maritime.</p>
