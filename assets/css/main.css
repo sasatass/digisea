@@ -124,24 +124,23 @@ nav {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Mobile (small) */
+/* Desktop and larger screens */
+#hero {
+    background-image: url('/assets/images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Mobile (use a smaller image) */
 @media (max-width: 600px) {
     #hero {
         background-image: url('/assets/images/hero-image-small.jpg');
+        background-size: cover;
+        background-position: center;
     }
 }
 
-/* Tablet (medium) */
-@media (max-width: 1200px) {
-    #hero {
-        background-image: url('/assets/images/hero-image.jpg');
-    }
-}
-
-/* Desktop (large) */
-#hero {
-    background-image: url('/assets/images/hero-image.jpg');
-}
 
 .nav-menu .cta-button:hover {
     background-color: var(--secondary-color);
