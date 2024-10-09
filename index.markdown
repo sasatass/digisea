@@ -8,11 +8,19 @@ image: /assets/images/vision1.png
 
 <!-- Hero Section -->
 <section id="hero">
-    <div class="container">
-        <h1 class="hero-text">Discover, view demos, and compare...</h1>
-        <p class="hero-text">...SaaS solutions for maritime.</p>
-        <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
-    </div>
+  <img src="/assets/images/hero-image-large.jpg" 
+       srcset="/assets/images/hero-image-small.jpg 600w, 
+               /assets/images/hero-image.jpg 1200w, 
+               /assets/images/hero-image.jpg 1800w" 
+       sizes="(max-width: 600px) 600px, 
+              (max-width: 1200px) 1200px, 
+              1800px" 
+       alt="Ship in the Ocean" class="hero-image">
+  <div class="container">
+    <h1 class="hero-text">Discover, view demos, and compare...</h1>
+    <p class="hero-text">...SaaS solutions for maritime.</p>
+    <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
+  </div>
 </section>
 
 <!-- Main Content -->
