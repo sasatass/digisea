@@ -413,7 +413,7 @@ html {
     display: flex;
     gap: 15px; /* Space between social icons */
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .footer-bottom {
