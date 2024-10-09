@@ -124,40 +124,15 @@ nav {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Desktop and larger screens */
-#hero {
-    background-image: url('/assets/images/hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
-/* Mobile (use a smaller image) */
-@media (max-width: 600px) {
-    #hero {
-        background-image: url('/assets/images/hero-image-small.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-}
-
 
 .nav-menu .cta-button:hover {
     background-color: var(--secondary-color);
     transform: translateY(-3px);
-}
-
-/* Hero Section */
-#hero {
-    background-image: url('../images/hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: no-repeat;
-    color: white;
-    text-align: center;
-    padding: 200px 0 150px;
-    position: relative;
-    min-height: 80vh;
 }
 
 #hero::before {
