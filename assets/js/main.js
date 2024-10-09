@@ -104,29 +104,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the navbar state on page load
     handleScroll();
 });
-
-    //Cookie Consent
-   document.addEventListener('DOMContentLoaded', function() {
-    var popup = document.getElementById('privacy-popup');
-    var acceptButton = document.getElementById('accept-cookies');
-    var heroSection = document.getElementById('hero');
-
-    // Check if cookies were already accepted
-    if (!localStorage.getItem('cookiesAccepted')) {
-        // Add a scroll event listener
-        window.addEventListener('scroll', function() {
-            var heroBottom = heroSection.getBoundingClientRect().bottom;
-            
-            // Show the privacy popup once we scroll past the hero section
-            if (heroBottom < 0) {
-                popup.style.display = 'block';
-            }
-        });
-    }
-
-    // Accept cookies
-    acceptButton.addEventListener('click', function() {
-        localStorage.setItem('cookiesAccepted', 'true');
-        popup.style.display = 'none';
-    });
-});
