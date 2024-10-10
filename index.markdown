@@ -9,8 +9,8 @@ image: /assets/images/vision1.png
 <!-- Hero Section -->
 <section id="hero" style="background-image: url('{{ '/assets/images/hero-image.jpg' | relative_url }}');">
     <div class="container">
-       <h1 class="hero-text">Discover, view demos, and compare...</h1>
-        <p class="hero-text">...SaaS solutions for maritime.</p>
+       <h1 class="hero-text">Discover Maritime SaaS Solutions with Ease</h1>
+        <p class="hero-text">Find and compare the best software solutions for the maritime industry.</p>
         <a href="#waitlist-form" class="cta-button">Join the Waitlist</a>
     </div>
 </section>
